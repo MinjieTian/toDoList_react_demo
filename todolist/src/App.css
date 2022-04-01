@@ -1,0 +1,42 @@
+.App{
+  height: 100%;
+  position: relative;
+}
+.header{
+  width: 100%;
+  font-size: 5rem;
+  line-height: 100%;
+  height: 20%;
+  background-color: #e8eef6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#outer_wrap{
+  font-size: 2rem;
+  padding: 0 8%;
+  height: 80%;
+  width: 100%;
+  background-color: rgb(243, 242, 242);
+}
+.TaskPin{
+  height: 40%;
+  margin-bottom: 2%;
+}
+.TaskPin>div{
+  border-radius: 5px/5px;
+  border: 1px solid transparent;
+  padding: 0px !important;
+  height: 100%;
+  background-color: #fff;
+}
+.pinBtn{
+  border: 0px solid transparent;
+  background-color: #fff;
+  margin:0  2%;
+}
+.des{
+  word-wrap: break-word;
+  overflow: hidden;
+}
